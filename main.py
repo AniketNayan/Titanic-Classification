@@ -35,4 +35,4 @@ if st.button('Predict'):
         print('person will die')
     else:
         print('The person will survive')
-        st.write(f"predicted class: {predicted_class[0]}")
+    st.write(f"predicted class: {predicted_class[0]}")
